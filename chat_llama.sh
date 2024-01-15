@@ -4,7 +4,7 @@
 # Script adapted from llama2-13b.sh in llama.cpp/examples
 #
 
-/home/jim/Documents/Projects/llama/llama.cpp/main -m \
+/home/jim/Documents/Projects/llama/llama.cpp/build/bin/main -m \
     /home/jim/Documents/Projects/llama/llama-2-13b/ggml-model-q4_0.gguf \
        --color \
        --ctx_size 2048 \
