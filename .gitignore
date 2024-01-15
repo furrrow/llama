@@ -157,4 +157,20 @@ cython_debug/
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+.idea/
+
+# llama files
+llama-2-13b-chat/
+llama-2-13b/
+llama-2-70b-chat/
+llama-2-70b/
+llama-2-7b-chat/
+llama-2-7b/
+
+# output files
+output.txt
+tokenizer.model
+tokenizer_checklist.chk
+
+# llama.cpp is its own repo:
+llama.cpp
